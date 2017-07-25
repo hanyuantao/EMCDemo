@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
-  s.vendored_framework = 'EMC_Demo/iflyMSC.framework'
+  s.vendored_framework = 'EMCDemo/iflyMSC.framework'
   # s.library   = "iconv"
   s.libraries = "c++", "z"
 
