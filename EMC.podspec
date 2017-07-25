@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EMC"
-  s.version      = "1.0.7"
+  s.name         = "EMCHR"
+  s.version      = "1.0.8"
   s.summary      = "haier U+ EMC"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
   #                 DESC
 
-  s.homepage     = "https://github.com/ws21san/EMC"
+  s.homepage     = "https://github.com/hanyuantao/EMCDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,10 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "王帅" => "ws21san@163.com" }
-  # Or just: s.author    = "王帅"
-  # s.authors            = { "王帅" => "ws21san@163.com" }
-  # s.social_media_url   = "http://twitter.com/王帅"
+  s.author             = { "hanyuantao" => "oncerwork@163.com" }
+  # Or just: s.author    = "hanyuantao"
+  # s.authors            = { "hanyuantao" => "oncerwork@163.com" }
+  # s.social_media_url   = "http://weibo.com/once880919"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ws21san/EMC.git", :tag => "1.0.7" }
+  s.source       = { :git => "https://github.com/hanyuantao/EMCDemo.git", :tag => "1.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
