@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "EMCHR"
+  s.name         = "EMCDemo"
   s.version      = "1.0.8"
   s.summary      = "haier U+ EMC"
 
