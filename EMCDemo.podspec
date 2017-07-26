@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EMCDemo"
-  s.version      = "1.0.8"
+  s.version      = "1.1.1"
   s.summary      = "haier U+ EMC"
 
   # This description is used to generate tags and improve search results.
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-#   s.source_files  = "EMCDemo/*.{h,m}"
-  s.source_files  = "EMC", "EMCDemo/*.{h,m}"
+  s.source_files  = "EMCDemo/*.{h,m}"
+  # s.source_files  = "EMC", "EMCDemo/*.{h,m}"
 #   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "Foundation" ,"CoreTelephony", "CoreGraphics", "QuartzCore", "SystemConfiguration", "AudioToolbox", "AddressBook", "AVFoundation", "CoreLocation", "AssetsLibrary"
-  s.vendored_framework = 'EMCDemo/iflyMSC.framework'
+  # s.vendored_framework = 'EMCDemo/iflyMSC.framework'
   # s.library   = "iconv"
   s.libraries = "c++", "z"
 
