@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "46D71594B3DEFE22B07934AF84E85B850EE67EFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9577d638-74df-dc49-a624-4cf96e4b6aa2++1678" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9577d638-74df-dc49-a624-4cf96e4b6aa2++1678" : 9223372036854775807,
+    "46D71594B3DEFE22B07934AF84E85B850EE67EFC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2DC0AF0A-1155-49BC-9AFB-F058154E975E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9577d638-74df-dc49-a624-4cf96e4b6aa2++1678" : "..\/..",
+    "46D71594B3DEFE22B07934AF84E85B850EE67EFC" : "EMC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EMC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EMC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hanyuantao\/EMCDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "46D71594B3DEFE22B07934AF84E85B850EE67EFC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.135.13.150",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9577d638-74df-dc49-a624-4cf96e4b6aa2++1678"
+    }
+  ]
+}
