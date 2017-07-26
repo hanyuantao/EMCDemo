@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EMCDemo"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "haier U+ EMC"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hanyuantao/EMCDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/hanyuantao/EMCDemo.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
