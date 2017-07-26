@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { “once” => “545574484@qq.com" }
+  s.author             = { "once"=> "545574484@qq.com"}
   # Or just: s.author    = "once"
   # s.authors            = { "once" => "545574484@qq.com" }
   # s.social_media_url   = "http://weibo.com/once880919"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hanyuantao/EMCDemo.git", :tag => "1.0.8" }
+  s.source       = { :git => "https://github.com/hanyuantao/EMCDemo.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
