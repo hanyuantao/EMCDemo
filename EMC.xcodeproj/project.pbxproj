@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62B1C581F2880D9000F39ED /* ONCEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62B1C571F2880D9000F39ED /* ONCEViewController.m */; };
 		A63EE3341F286FD50072E526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A63EE3331F286FD50072E526 /* main.m */; };
 		A63EE3371F286FD50072E526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63EE3361F286FD50072E526 /* AppDelegate.m */; };
 		A63EE33A1F286FD50072E526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63EE3391F286FD50072E526 /* ViewController.m */; };
 		A63EE33D1F286FD50072E526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63EE33B1F286FD50072E526 /* Main.storyboard */; };
 		A63EE33F1F286FD50072E526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63EE33E1F286FD50072E526 /* Assets.xcassets */; };
 		A63EE3421F286FD50072E526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63EE3401F286FD50072E526 /* LaunchScreen.storyboard */; };
-		A63EE3531F28709B0072E526 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63EE3511F28709B0072E526 /* CardViewController.m */; };
-		A63EE3541F28709B0072E526 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63EE3521F28709B0072E526 /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A62B1C561F2880D9000F39ED /* ONCEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONCEViewController.h; sourceTree = "<group>"; };
+		A62B1C571F2880D9000F39ED /* ONCEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONCEViewController.m; sourceTree = "<group>"; };
 		A63EE32F1F286FD50072E526 /* EMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A63EE3331F286FD50072E526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A63EE3351F286FD50072E526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,9 +29,6 @@
 		A63EE33E1F286FD50072E526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A63EE3411F286FD50072E526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A63EE3431F286FD50072E526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A63EE3501F28709B0072E526 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
-		A63EE3511F28709B0072E526 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		A63EE3521F28709B0072E526 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63EE3541F28709B0072E526 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,9 +86,8 @@
 		A63EE34F1F28709B0072E526 /* EMCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A63EE3501F28709B0072E526 /* CardViewController.h */,
-				A63EE3511F28709B0072E526 /* CardViewController.m */,
-				A63EE3521F28709B0072E526 /* iflyMSC.framework */,
+				A62B1C561F2880D9000F39ED /* ONCEViewController.h */,
+				A62B1C571F2880D9000F39ED /* ONCEViewController.m */,
 			);
 			path = EMCDemo;
 			sourceTree = "<group>";
@@ -168,10 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63EE3531F28709B0072E526 /* CardViewController.m in Sources */,
 				A63EE33A1F286FD50072E526 /* ViewController.m in Sources */,
 				A63EE3371F286FD50072E526 /* AppDelegate.m in Sources */,
 				A63EE3341F286FD50072E526 /* main.m in Sources */,
+				A62B1C581F2880D9000F39ED /* ONCEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +336,7 @@
 				A63EE3481F286FD50072E526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
